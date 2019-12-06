@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8 />
+<title>Example of drag out from browser to desktop</title>
+</head>
+<body>
+  <a href="http://www.w3devcampus.com/wp-content/uploads/2013/01/michelbuffa.png" 
+    draggable="true" 
+    ondragstart="event.dataTransfer.setData('DownloadURL',
+    'image/png:michelbuffaDownloaded.png:http://www.w3devcampus.com/wp-content/uploads/2013/01/michelbuffa.png');" 
+    onclick="return false";
+>
+I'm a link to Michel Buffa's picture, drag me to the desktop!
+</a>
+</body>
+</html>
